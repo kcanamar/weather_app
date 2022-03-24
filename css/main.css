@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(background-mountains.png);
+    background-size: 200%;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.title {
+    text-align:center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    margin: 50px auto 10px;
+}
+.weather-app {
+    text-align:center;
+}
+p, .results {
+    background-color: rgba(80, 146, 80, 0.7);
+    text-align: center;
+    margin: 25px 300px 25px;
+    border-style: double;
+    border-color: rgba(150,100,50,1);
+    padding: 5px 5px 5px
+}
+p, .results ul {
+    color: rgb(216, 215, 215);
+    list-style: none;
+}
+.results ul li {
+    padding: 5px;
+}
+.results ul li a {
+    text-decoration: none;
+    color:rgb(216, 215, 215);
+}

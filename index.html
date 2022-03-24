@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/config.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1 class="title">Weather App</h1> 
+    <p class="direction">Look up the current weather with only a City name.</p>
+    <div class = "weather-app">
+        <input type = "text" placeholder="City Search"/>
+        <button>Search City</button>
+    </div>
+    <div class="results">
+        <ul>
+            <li>Weather In: <a href="#" id="city"></a></li>
+            <li>Temperature: <a href="#" id="temp"></a></li>
+            <li>Feels like: <a href="#" id="feels"></a></li>
+            <li>Conditions: <a href="#" id="weather"></a></li>
+        </ul>
+    </div>
+</body>
+</html>
