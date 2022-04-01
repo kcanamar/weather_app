@@ -1,4 +1,4 @@
-var mykey = config.MY_KEY
+let mykey = "da0da58eef351f5da13c80b41976e9d5"
 const $input = $("input")
 const $button = $("button")
 const $aside = $("aside")
